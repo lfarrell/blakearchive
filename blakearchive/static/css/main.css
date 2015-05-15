@@ -192,5 +192,24 @@ a.new-window {
     background-image: url("../img/global/edit-icons@2x.png") !important;
   }
 }
-
 /* End image location mods */
+
+/**
+* Non DesignHammer CSS
+*/
+footer .dropdown-menu {
+  background-color: rgba(56, 56, 56, 0.97);
+}
+
+footer .nav .open > a, footer .nav .open > a:hover, footer .nav .open > a:focus, footer .nav a:focus {
+  background-color: rgba(56, 56, 56, 1);
+}
+
+.copies-columns {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 4;
+  -moz-column-gap: 10px;
+  column-count:4;
+  column-gap:10px;
+}

@@ -1,0 +1,6 @@
+/* IE 9 doesn't understand CSS columns,
+so we have to hack it. */
+nav.navbar ul.dropdown-menu li {
+  width: 49%;
+  float: left;
+}
